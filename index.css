@@ -192,3 +192,56 @@ padding: 20px;
 .wrapper{
   z-index: 98;
 } 
+
+/* ===================== MENU ======================== */
+
+#btn {
+  padding: 0;
+}
+
+#btn li {
+  display: inline;
+  margin-left: 6vmax;
+  color: white;
+}
+
+#btn li a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 900;
+}
+
+#btnEntra {
+  outline: none;
+  height: 40px;
+  background-color: transparent;
+  text-align: center;
+  width: 130px;
+  font-size: 16px;
+  border-radius: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  ;
+  color: white;
+  text-shadow: 0;
+}
+
+#btnCrea {
+  outline: none;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  width: 130px;
+  font-size: 16px;
+  border-radius: 40px;
+  border: 2px solid white;
+  ;
+  color: black;
+  text-shadow: 0;
+}
+
+#logo {
+  max-width: 10%;
+  height: auto;
+}
