@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(238, 238, 238)
+  background-color: rgb(238, 238, 238);
+  overflow-x: hidden;
 }
 
 /* header */
@@ -21,7 +22,7 @@ body {
 .hero-bg-video {
   background-color: #0097E0;
   position: relative;
-  height: 300px;
+  height: 55vh;
 }
 
 div {
@@ -166,3 +167,14 @@ padding: 20px;
 .hero-bg-video {
     height: 270px;
 }}
+
+.header{
+  position: relative;
+  z-index: 99;
+  height: 100px;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgb(7, 3, 97) 0%, rgba(10, 61, 149, 0) 85%);
+}
+.wrapper{
+  z-index: 98;
+} 
